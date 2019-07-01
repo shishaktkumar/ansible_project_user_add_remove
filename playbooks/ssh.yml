@@ -1,0 +1,9 @@
+---
+
+  - hosts: developer_machines
+    gather_facts: False
+    remote_user: ansible_user
+    become: true
+    become_user: root
+    roles:
+      - ssh-access

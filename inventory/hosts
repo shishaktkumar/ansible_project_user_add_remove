@@ -1,0 +1,7 @@
+[developer_machines]
+machine1
+machine2
+
+[developer_machines:vars]
+user_name=shishak
+user_des="Dev Team User"
